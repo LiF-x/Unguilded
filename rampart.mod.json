@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "Unguilded",
+  "name": "Unguilded",
+  "version": "1.0.0",
+  "description": "Disconnects players during Judgement Hour if they are not in a guild.",
+  "authors": ["Warped Ibun"],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      { "src": "mod.cs", "dest": "mods/Unguilded/mod.cs" }
+    ],
+    "dataPatches": []
+  }
+}
