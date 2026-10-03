@@ -5,6 +5,11 @@
   "version": "1.0.0",
   "description": "Disconnects players during Judgement Hour if they are not in a guild.",
   "authors": ["Warped Ibun"],
+  "source": { "repo": "LiF-x/Unguilded", "commit": "b2bdbbb8fcd04c25682977752acbaa79d338d953" },
+  "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": ["LiF-x/ServerAutoloader", "LiF-x/ServerUtility"],
   "loadOrderHint": 100,
   "files": {
     "overlay": [
